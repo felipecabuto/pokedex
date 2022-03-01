@@ -16,7 +16,7 @@
 	🚀 Em construção...  🚧
 </h4>
 
-### Features
+### 📝 Features
 
 - [x] Desenvolva uma aplicação web que liste e detalhe todos os pokémons catalogados
 - [x] Utilizar ícones do Font Awesome
@@ -29,7 +29,7 @@
 - [x] Crie o header da aplicação, apenas visual sem funcionalidades
 - [x] Crie a página de login (extra)
 
-### Pré-requisitos
+### 📦 Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
@@ -49,9 +49,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <a href="https://www.linkedin.com/in/felipecabuto/">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/84874448?v=4" width="100px;" alt=""/>
  <br />
- <sub><b>Felipe Cabuto</b></sub></a> <a href="https://www.linkedin.com/in/felipecabuto/" title="Felipe Cabuto">🚀</a>
-
-
-Feito com ❤️ por Felipe Cabuto 👋🏽 Entre em contato!
+ <sub><b>Felipe Cabuto</b></sub></a> <a href="https://www.linkedin.com/in/felipecabuto/" title="Felipe Cabuto">🇧🇷</a>
 
 ## [![Linkedin Badge](https://img.shields.io/badge/-felipecabuto-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/pranjaljain0/)](https://www.linkedin.com/in/felipecabuto/) [![Gmail Badge](https://img.shields.io/badge/-felipecabuto@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:felipecabuto@gmail.com)](mailto:felipecabuto@gmail.com)
+	
+Desenvolvido 🧡 por Felipe Cabuto
