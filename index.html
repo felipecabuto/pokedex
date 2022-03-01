@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/pokebola-fav.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/852f4ca042.js" crossorigin="anonymous"></script> 
+</head>
+<header>
+    <nav>
+        <div>
+            <a href="#">
+                <img class="logo-box" src="./images/pokedex.png">
+            </a>
+        </div>
+        <ul class="nav-bar">
+            <li class="nav-bar_item img-cur"><a href="#">Página Inicial</a></li>
+            <li class="nav-bar_item dropdown">
+                <a href="#">Categoria</a>
+                <ul class="project">
+                    <li class="drop-item"><a href="#">Normal</a></li>
+                    <li class="drop-item"><a href="#">Fogo</a></li>
+                    <li class="drop-item"><a href="#">Água</a></li>
+                    <li class="drop-item"><a href="#">Grama</a></li>
+                    <li class="drop-item"><a href="#">Voador</a></li>
+                    <li class="drop-item"><a href="#">Lutador</a></li>
+                    <li class="drop-item"><a href="#">Veneno</a></li>
+                    <li class="drop-item"><a href="#">Elétrico</a></li>
+                    <li class="drop-item"><a href="#">Terra</a></li>
+                    <li class="drop-item"><a href="#">Pedra</a></li>
+                    <li class="drop-item"><a href="#">Psíquico</a></li>
+                    <li class="drop-item"><a href="#">Gelo</a></li>
+                    <li class="drop-item"><a href="#">Inseto</a></li>
+                    <li class="drop-item"><a href="#">Fantasma</a></li>
+                    <li class="drop-item"><a href="#">Ferro</a></li>
+                    <li class="drop-item"><a href="#">Dragão</a></li>
+                    <li class="drop-item"><a href="#">Sombrio</a></li>
+                    <li class="drop-item"><a href="#">Fada</a></li>
+                </ul>
+            </li>
+            <li class="nav-bar_item"><a href="favorite.html">Favoritos</a></li>
+            <li class="nav-bar_item nav-bar-login"><a href="login.html">Entrar</a></li>            
+        </ul>
+    </nav>
+    </header>
+<body onload="getPokemon()">
+  <div class="pokedex">
+      <div class="info-display center">
+        <form name="pokemonKeySend" method="POST" action="">
+          <input type="text" id="pokemonId" name="pokemonId" class="id-display" value="" onKeyUp="pokemonKeyId()"/>
+        </form>
+        <div class="name-display">
+          <b id="name-display"></b>
+        </div>
+      </div>
+      <div class="pokemon-display">
+        <div class="pokemon">
+          <img id="imgPokemon" src="" width="100%" height="100%">
+        </div>
+        <div class="pokemon type">          
+          <span id="pokemonType"></span>          
+        </div>        
+        <p class="button-like" id="add">🤍</p>
+      </div>
+      <div class="buttons">        
+        <div class="button" onClick="previous()">Anterior</div>
+        <div class="button-add" onClick="favorito()">Salvar</div>
+        <div class="button" onClick="next()">Próximo</div>
+      </div> 
+  </div>    
+  <div class="center dev top">
+    <a href="https://www.linkedin.com/in/felipecabuto/"
+      target="_blank"><img class="link-hub" src="./images/linkedin.png"></a>
+    <a href="https://github.com/felipecabuto/pokedex"
+      target="_blank"><img class="link-hub" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></a>
+  </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
