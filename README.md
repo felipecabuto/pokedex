@@ -66,4 +66,5 @@ Se você tiver alguma sugestão de melhoria para este código, sinta-se a vontad
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/84874448?v=4" width="100px;" alt=""/>
  <br />
  <sub><b>Felipe Cabuto</b></sub></a> <a href="https://www.linkedin.com/in/felipecabuto/" title="Felipe Cabuto"></a>
+
 ## [![Linkedin Badge](https://img.shields.io/badge/-felipecabuto-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/pranjaljain0/)](https://www.linkedin.com/in/felipecabuto/) [![Gmail Badge](https://img.shields.io/badge/-felipecabuto@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:felipecabuto@gmail.com)](mailto:felipecabuto@gmail.com)
